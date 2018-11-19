@@ -1,0 +1,185 @@
+
+body {
+    font: 15px/1.5 arial, helvetica, serif;
+    padding: 0;
+    margin: 0;
+    background: #f4f4f4;
+    overflow: auto;
+}
+
+
+/*Global*/
+.container{
+    width: 70%;
+    margin: auto;
+    overflow: hidden;
+}
+
+ul{
+    margin: 0;
+    padding: 0;
+}
+
+/*Header*/
+
+header{
+    background: black;
+    color: white;
+    padding-top: 30px;
+    min-height: 70px;
+    /*border-bottom: WindowFrame 7px solid;*/
+    opacity: 2.9;
+}
+
+header a{
+    color: burlywood;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 16px;
+}
+header .current a{
+    color: red;
+    font-weight: bold;
+}
+header a:hover{
+    color: darkblue;
+    font-weight: bold;
+}
+
+header li{
+    float: left;
+    display: inline;
+    padding: 0 20px 0 20px;
+}
+header #branding{
+float: left;
+}
+
+header #branding h1{
+    margin: 0;
+}
+
+header nav{
+    float: right;
+    margin-top: 10px;
+}
+
+/* Section*/
+/*section .container{*/
+    /*float: left;*/
+    /*width: 70%;*/
+    /*padding: 10% 25% 0 10%;*/
+    /*align-content: center;*/
+/*}*/
+
+/* Input */
+input, button{
+    display: inline-block;
+    padding-left: 10px;
+    height: 25px;
+    width: 250px;
+    margin: 3px;
+}
+
+
+/* Kroppen */
+
+section{
+    width: 98%;
+    float: left;
+    min-height: 400px;
+    padding: 0;
+    margin: 0;
+    /*background: url("../img/TTFrisoerSalon.jpg") no-repeat 0 -400px;*/
+    /*text-align: center;*/
+}
+
+footer{
+    width: 100%;
+    height: 100%;
+    float: right;
+    padding: 0 0;
+    min-height: 100px;
+    background: black;/*url("../img/TTFrisoerSalon.jpg") no-repeat 0 -400px;*/
+    text-align: center;
+    /*border-top: windowframe 7px solid;*/
+
+}
+
+/*.button_1{*/
+    /*height: 38px;*/
+    /*background: maroon;*/
+    /*border: 0;*/
+    /*margin-left: 40px;*/
+    /*padding-left: 20px;*/
+    /*padding-right: 20px;*/
+    /*color: lavender;*/
+    /*width: 80%;*/
+/*}*/
+
+/*section form{*/
+    /*float: left;*/
+    /*background: aliceblue;*/
+/*}*/
+
+/*section{*/
+    /*float: left;*/
+    /*padding: 388px 388px;*/
+    /*background: url("../img/TTFrisoerSalon.jpg") no-repeat -400px;*/
+/*}*/
+
+/*aside{*/
+    /*float: right;*/
+    /*width: 15%;*/
+    /*margin-top: 10px;*/
+    /*background: url("../img/TTFrisoerSalon.jpg") no-repeat 0 -400px;*/
+    /*background: black;*/
+/*}*/
+
+footer img{
+    width: 0.89%;
+    padding: 20px 20px;
+}
+
+th, tr, td{
+    background: green;
+    color: #f4f4f4;
+    border: solid;
+}
+td:hover{
+    background: orange;
+}
+
+table{
+    float: left;
+    position: static;
+    background: beige;
+    width: 560px;
+    height: 340px;
+    color: HighlightText;
+    border: solid;
+}
+
+form{
+    background: beige;
+}
+.info{
+    float: right;
+    /*padding-right: 30px;*/
+  }
+
+
+/* Add media queries for smaller screens */
+@media screen and (max-width:720px) {
+    .weekdays li, .days li {width: 13.1%;}
+}
+
+@media screen and (max-width: 420px) {
+    .weekdays li, .days li {width: 12.5%;}
+    .days li .active {padding: 2px;}
+}
+
+@media screen and (max-width: 290px) {
+    .weekdays li, .days li {width: 12.2%;}
+}
+

@@ -1,0 +1,337 @@
+/*************************************************
+*
+*   Front-end News! Stylesheet
+*
+*   Indigo        : #3f51b5
+*   Indigo (dark) : #303f9f
+*   Light blue    : #c5cae9
+*   White         : #fff
+*   Pink          : #ff4081
+*   Gray (dark)   : #212121
+*   Gray (medium) : #727272
+*   Gray (light)  : #b6b6b6
+*
+*************************************************/
+
+/*-----------------------------------------------
+*   Base
+-----------------------------------------------*/
+
+body {
+  color: #212121;
+  font-family: 'Lato', sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+    background: lightgray url("img/T&TBarber _img/skilt2.jpg") repeat fixed center;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  margin-bottom: 5px;
+    margin-left: 40px;
+}
+
+ol, ul {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+    text-decoration: none;
+}
+
+option {
+    font-family: sans-serif;
+    color: black;
+    font-weight: bold;
+}
+
+p {
+    text-align: center;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 1.5;
+    padding-bottom: 0;
+    margin-bottom: 0;
+}
+p:first-child {
+    padding-top: 20px;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+a {
+  color: blue;
+  transition: 0.2s ease-in-out;
+}
+.page-nav {
+  margin-top: 50px;
+  /*display: inline;*/
+  float: right;
+    margin-right: 40px;
+}
+.page-nav li {
+  float: left;
+  margin-right: 60px;
+    text-decoration: none;
+}
+a:active,
+a:hover,
+a:focus {
+    /*color: #8A6343;*/
+}
+
+/*-----------------------------------------------
+*   Hero
+-----------------------------------------------*/
+
+.hero {
+  height: 140px;
+    /*background-color: #212121;*/
+  background: #f4f4f4 /*url("./img/T&TBarber _img/skilt.jpg") top -130px left repeat*/;
+  color: #C2C2C2;
+  margin: 0 auto;
+  padding: 0;
+  text-align: center;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.95);
+    width: 1400px;
+    border-bottom: 0.2px grey solid;
+
+}
+.hero h1 {
+  margin-bottom: 0;
+  padding-bottom: 0;
+  float: left;
+}
+
+.uge {
+    background-color: #C2C2C2;
+    color: black;
+    text-align: center;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+
+/*-----------------------------------------------
+*   Content
+-----------------------------------------------*/
+
+.content {
+  /*margin-bottom: 40px;*/
+    margin: 0 200px;
+    /*background: #f4f4f4;*/
+    width: 1400px;
+    height: 1000px;
+    padding: 0;
+    /*opacity: 0.8;*/
+    border-top: 0;
+    border-bottom: 02px grey solid;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.95);
+}
+.uge1{
+    /*margin-bottom: 40px;*/
+    margin: 0 200px;
+    background: #f4f4f4;
+    width: 1000px;
+    height: 1000px;
+    padding: 0;
+    /*opacity: 0.8;*/
+    border-top: 0;
+    border-bottom: 02px grey solid;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.95);
+
+}
+.content .modal {
+    opacity: 1;
+}
+
+.billede-et,
+.billede-to,
+.billede-tre{
+    float: left;
+    display: block;
+    margin: 200px 40px 200px 100px;
+}
+.billede-et p,
+.billede-to p,
+.billede-tre p{
+    display: block;
+
+}
+
+.billede-et #et,
+.billede-to #to,
+.billede-tre #tre{
+    /*float: left;*/
+    /*display: block;*/
+    height: 250px;
+    width: 250px;
+}
+
+.frem {
+    width: 220px;
+    height: 220px;
+}
+
+/*-----------------------------------------------
+*   Container
+-----------------------------------------------*/
+
+.container {
+  margin: 0 400px;
+    padding: 0;
+  max-width: 800px;
+}
+.h3, fieldset {
+  color: #ffffff;
+  font-size: 48px;
+}
+
+/*-----------------------------------------------
+*   footer
+-----------------------------------------------*/
+.footer {
+    background: #f4f4f4;
+    border-top: 0.2px grey solid;
+    width: 1400px;
+    height: 200px;
+    margin: 0 auto;
+    padding: 0 auto;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.95);
+
+}
+
+.footer-one {
+    text-align: center;
+}
+footer a {
+    text-align: center;
+}
+.footer-one a:hover, a:active {
+    color: #d1296d
+}
+
+#facebook {
+    height: 16px;
+    width: 16px;
+    text-align: center;
+}
+/*-----------------------------------------------
+*   Table
+-----------------------------------------------*/
+.table{
+    display: block;
+    float: left;
+  width: auto;
+  height: auto;
+}
+.table table.is-visible {
+    display: block;
+    /*display: inline-block;*/
+    float: left;
+  height: auto;
+  opacity: 1;
+  visibility: visible;
+  transition: opacity 0.2s ease-in-out, visibility 0.2s ease-in-out;
+}
+.table2 {
+    background: #C2C2C2;
+}
+
+.form {
+    width: auto;
+    height: auto;
+    margin: 0;
+    padding: 0;
+    background: #f4f4f4;
+    float: right;
+}
+
+.form.is-visible {
+    float: right;
+    display: block;
+    height: auto;
+    opacity: 1;
+    visibility: visible;
+    transition: opacity 0.2s ease-in-out, visibility 0.2s ease-in-out;
+}
+
+.table td, th {
+    border-spacing: 5px;
+    border: 0.2px black solid;
+    padding: 14px 14px 14px 14px;
+    margin: 0;
+  /*display: inline-table;*/
+}
+
+
+/*-----------------------------------------------
+*   Modal
+-----------------------------------------------*/
+
+.modal {
+    float: left;
+  background-color: green;
+  border-bottom-left-radius: 4px;
+  border-bottom-right-radius: 4px;
+display: inline-block;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.95);
+  left: 50%;
+ /*opacity: 1;*/
+  position: absolute;
+  top: 50px;
+  transform: translate(-20%, -5%);
+  transition: 0.4s ease-in-out;
+  visibility: hidden;
+  width: auto;
+  z-index: 2;
+}
+
+.modal th {
+  width: 65px;
+  background: #fff;
+}
+.modal td:hover {
+  background: yellow;
+}
+.modal.is-visible {
+  opacity: 1;
+  transform: translate(-50%, 0);
+  visibility: visible;
+}
+.modal-overlay {
+  background-color: #212121;
+  bottom: 0;
+  height: 100%;
+  left: 0;
+  opacity: 0;
+  position: fixed;
+  right: 0;
+  top: 0;
+  transition: 0.4s ease-in-out;
+  visibility: hidden;
+  width: 100%;
+  z-index: 1;
+}
+
+.modal form.is-visible {
+  /*opacity: 1;*/
+  transform: translate(-50%, 0);
+  visibility: visible;
+}
+
+.js-modal-overlay.is-visible {
+  opacity: 0.4;
+  visibility: visible;
+}
+
+/*-----------------------------------------------
+*   Animation
+-----------------------------------------------*/
+
+@keyframes flash {
+  from, 50%, to {
+    opacity: 0;
+  }
+  25%, 75% {
+    opacity: 1;
+  }
+}
